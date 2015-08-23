@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            background: #040c19;
+        }
+        .test {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: 2;
+        }
+
+        .m-img {
+            position: absolute;
+            left: 105px;
+        }
+
+        .m-img2 {
+            top: 390px;
+        }
+    </style>
+</head>
+<body>
+    <img src="http://g-assets.daily.taobao.net/sd/base-lab/1.0.1/img/cloud-1.png" class="m-img m-img1"/>
+    <img src="http://g-assets.daily.taobao.net/sd/base-lab/1.0.1/img/cloud-1.png" class="m-img m-img2"/>
+    <svg width="110px" height="512px" class="test">
+        <g>
+            <g transform="translate(0,118)">
+                <path fill-rule="evenodd" clip-rule="evenodd" fill="#51C0DF" stroke="#51C0DF" stroke-miterlimit="10" d="M46.399,255.957
+                c1.657,0,3,1.343,3,3c0,1.657-1.343,3-3,3c-1.657,0-3-1.343-3-3C43.399,257.3,44.742,255.957,46.399,255.957z"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#51C0DF" stroke-miterlimit="10" d="M47.807,0
+                    c0,0-77.816,132.399-0.408,258.957"/>
+            </g>
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="90 250 250" to="-90 250 250" dur="3s" repeatCount="indefinite"/>
+        </g>
+    </svg>
+</body>
+</html>
